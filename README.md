@@ -1,42 +1,3 @@
-# Midrohub Leave Management System
-
-A Power Apps and Dataverse leave management system designed to streamline employee leave requests, manager approvals, leave balance tracking, and automated entitlement updates.
-
-## Project Overview
-
-The Midrohub Leave Management System is a business-focused application built with Microsoft Power Platform.
-
-It provides employees with a simple interface to submit and track leave requests, while managers can review pending requests and approve or reject them. Approved leave automatically updates the employee's leave balance through Power Automate.
-
-## Business Problem
-
-Traditional leave management processes can rely heavily on emails, spreadsheets, and manual calculations. This can make it difficult to:
-
-- Track employee leave requests
-- Manage approval workflows
-- Maintain accurate leave balances
-- Prevent employees from requesting more leave than they have available
-- Give employees visibility of their request history
-
-This project addresses these challenges through a centralised Power Platform solution.
-
-## Key Features
-
-### Employee Features
-
-- Employee dashboard
-- Leave balance overview
-- Submit leave requests
-- Automatic working-day calculation
-- Leave balance validation
-- View pending requests
-- View approved requests
-- View rejected requests
-- View request details and status
-
-### Manager Features
-
-- Manager dashboard
 - View pending team leave requests
 - Review individual leave requests
 - Approve leave requests
@@ -112,4 +73,11 @@ Employee submits leave request
    Balance        Change
         |
         v
-  Approved Request
+  Approved Requests
+```
+
+## Solution Architecture
+
+The solution follows a Microsoft Power Platform architecture combining Power Apps, Dataverse, and Power Automate.
+
+![Midrohub Leave Management System Architecture](architecture/solution-architecture.png)
